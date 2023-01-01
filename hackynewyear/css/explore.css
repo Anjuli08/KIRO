@@ -1,0 +1,103 @@
+/* GENERAL LAYOUT */
+
+
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    /* color: #222; */
+    font-family: "raleway";
+}
+
+
+/* MAIN PAGE - LAYOUT */
+
+.grid {
+    width: 900px;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.grid-item {
+    height: 400px;
+    box-sizing: border-box;
+    box-shadow: 0px 10px 26px -5px rgba(0, 0, 0, 0.6);
+    position: relative;
+    transition: .5s ease;
+    opacity: .9;
+}
+
+.grid-item:hover {
+    box-shadow: 0px 30px 46px -18px rgba(0, 0, 0, 0.6);
+    -webkit-box-shadow: 0px 30px 46px -18px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: 0px 30px 46px -18px rgba(0, 0, 0, 0.6);
+    margin-top: -10px;
+    opacity: 1;
+}
+
+.grid-item-bg1 {
+    /* background-image: url("mlh.jpg")no-repeat center center; */
+    background-size: 100%;
+}
+
+.grid-item-bg2 {
+    background-size: 100%;
+}
+
+.grid-item-bg3 {
+    background-size: 100%;
+}
+
+.grid-item-bg4 {
+    background-size: 100%;
+}
+
+.grid-item-bg5 {
+    background-size: 100%;
+}
+
+.grid-content {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 260px;
+    height: 140px;
+    background: #c9ada7;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+h2 {
+    font-size: 18px;
+    margin: 0 0 6px;
+}
+
+p {
+    font-size: 14px;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    /* background: black; */
+    padding: 10px 20px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    font-weight: bold;
+    transition: .5s ease;
+}

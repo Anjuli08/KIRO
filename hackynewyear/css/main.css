@@ -1,0 +1,135 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+}
+
+.img1,
+.img2,
+.img3 {
+    position: relative;
+    opacity: 0.70;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.img1 {
+    background-image: url('./img1.jpg');
+    min-height: 200px;
+}
+
+.img2 {
+    background-image: url('./img2.jpg');
+    min-height: 200px;
+}
+
+.img3 {
+    background-image: url('./img3.jpg');
+    min-height: 200px;
+}
+
+.img4 {
+    background-image: url('./img4.jpg');
+    min-height: 200px;
+}
+
+.container {
+    display: flex;
+    /*margin: 15px;*/
+    width: 50%;
+    padding: 0 8px;
+}
+
+.img5 {
+    float: left;
+    padding: 0 10px;
+}
+
+.txt {
+    text-align: left;
+    overflow: auto;
+    margin-right: 120px;
+    float: right;
+    width: 50%;
+    /*height: 100%;*/
+}
+
+.content {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.section {
+    text-align: center;
+    padding: 50px 80px;
+}
+
+.section-light {
+    background-color: #f4f4f4;
+    color: rgb(100, 95, 95);
+}
+
+.section .cols {
+    display: flex;
+}
+
+.section .cols>* {
+    flex: 1;
+}
+
+.section-dark {
+    background-color: #052009;
+    color: #ddd;
+}
+
+span.border {
+    color: #fff;
+}
+
+.text {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    /*color: #000;*/
+    font-size: 50px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    background-color: rgba(100, 95, 95, 0);
+}
+
+.text .border {
+    background-color: rgba(100, 95, 95, 0);
+    color: #fff;
+    padding: 20px;
+}
+
+.text .border.trans {
+    color: rgb(19, 18, 18);
+}
+
+.imgg {
+    align-items: left;
+    height: 300px;
+    width: 400px;
+}
+
+@media(max-width:568px) {
+    .img1,
+    .img2,
+    .img3 {
+        background-attachment: scroll;
+    }
+}
+
+footer {
+    text-align: center;
+    text-decoration: none;
+}
