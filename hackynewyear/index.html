@@ -1,115 +1,118 @@
 <!DOCTYPE html>
+
 <html lang="en">
-
-<div class="top">
-    <div class="name">Entre Hub</div>
-    <a href="{% url 'userapp:profile' %}" class="loginBtn"><button class="gs">Profile</a>
-</div>
-
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Explore</title>
-    <link rel="stylesheet" href="css\main.css">
-    <link type="text/css" rel="stylesheet" href="css\style.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,600" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Advent+Pro" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:light" rel="stylesheet" type="text/css">
+    <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
+    <link type="text/css" rel="stylesheet" href="css/style1.css">
+
+    <title>Kiro</title>
+
 </head>
 
 <body>
+
+    <div class="top">
+        <div class="name">KIRO</div>
+
+        <!-- <a href="signup.html" class="loginBtn"><button class="gs"> Get Started</button></a> -->
+        <a href="login.html" class="loginBtn"><button class="gs">Login</button></a>
+    </div>
     <ul class="nav">
-        <li><a class="navi" id="active" href="userapp:base">Home</a></li>
+        <li><a class="navi" href="index.html">Home</a></li>
         <li>
-            <a class="navi" href="userapp:getmentor">Explore</a>
+            <a class="navi" href="explore.html">Explore</a>
         </li>
-        <li><a class="navi" href="userapp:news">Latest News</a></li>
-        <li><a class="navi" href="userapp:networking">Networking</a></li>
-        <li>
-            <a class="navi" href="userapp:dashboard">Idea Board</a>
-        </li>
+        <li><a class="navi" href="news.html">Latest News</a></li>
+        <li><a class="navi" href="networking.html">Networking</a></li>
+        <!-- <li>
+            <a class="navi" href="dashboard.html">Idea Board</a>
+        </li> -->
     </ul>
 
 
-    <div class="img1">
-        <div class="text">
-            <span class="border">
-                WHY
-            </span>
+    <div class="image">
+        <div>
+            <p class="intro ">With the Year Ends, Let's welcome <br><a href="#" class="nowlink "><span class="now ">2023!</span></a>
+            </p>
+        </div>
+        <div class="parallax1 ">
+        </div>
+    </div>
+    <div class="first ">
+        <div class="first2"><img src="media/news.gif" alt=""></div>
+        <div class="first1 ">
+            <br>
+            <p class="designhead">
+                Get latest <span style="padding-left: none;" class="designhead1">NEWS</span><span style="padding-left: 1rem;">Updates</span>
+            </p>
+            <p class="designtext">
+                Get the latest updates about business and entrepreneurial news to facilitate your work in the coming year!!
+            </p>
+
+
+        </div>
+    </div>
+    <div class="second ">
+        <div class="second1 ">
+            <br>
+            <p class="codehead ">Join <span class="codehead1">Communities</span>
+            </p>
+            <p class="codetext ">
+                Grab a chance to join some awesome communities including newly founded and connect with like-minded people
+            </p>
+
+        </div>
+        <div class="second2"><img src="media/comm.gif" alt=""></div>
+    </div>
+    <div class="third">
+        <div class="third2"><img src="media/networking.png" alt=""></div>
+        <div class="third1 ">
+            <p class="buyhead">
+                Amazing <span class="buyhead1 ">Network</span>
+            </p>
+            <p class="buytext">
+                Reach out to some amazing bunch of folks out there and build your network either for work or just for making the new year celebration wonderful!!
+            </p>
+
         </div>
     </div>
 
-    <section class="section section-dark">
-
-        <h2>Section One</h2>
-        <div class="cols">
-            <div class="container">
-                <img src="media/img5.jpg" style="width: 300px; height: 400px ">
-            </div>
-            <div class=" txt ">
-                <p class="content">
-                    Lorem DCP ipsum Lorem DCP ipsumLorem DCP ipsumvLorem DCP ipsumLorem DCP ipsumLorem DCP ipsumLorem DCP ipsum Lorem DCP ipsumLorem DCP ipsumLorem DCP ipsumLorem DCP ipsumLorem DCP ipsumLorem DCP ipsumLorem DCP ipsumLorem DCP ipsum Lorem DCP ipsumLorem DCP
-                    ipsumLorem DCP ipsumLorem DCP ipsumLorem DCP ipsumLorem DCP ipsumLorem DCP ipsumLorem DCP ipsumLorem DCP ipsum Lorem DCP ipsumLorem DCP ipsumLorem DCP ipsumLorem DCP ipsumLorem DCP ipsumLorem DCP ipsumLorem DCP ipsumLorem DCP ipsumLorem
-                    DCP ipsum Lorem DCP ipsumLorem DCP ipsumLorem DCP ipsumLorem DCP ipsumLorem DCP ipsumLorem DCP ipsumLorem DCP ipsumLorem DCP ipsumLorem DCP ipsumLorem DCP ipsum Lorem DCP ipsumLorem DCP ipsumLorem DCP ipsumLorem DCP ipsumLorem DCP
-                    ipsumLorem DCP ipsumLorem DCP ipsum.
-                </p>
-            </div>
-        </div>
-    </section>
-
-    <div class="img2 ">
-        <div class="text ">
-            <span class="border trans ">
-                Second Image
-            </span>
-        </div>
-    </div>
-
-    <section class="section section-dark ">
-        <h2>Section Two</h2>
-        <div class="cols">
-            <div class="container">
-                <img src="media/img5.jpg" style="width: 300px; height: 400px ">
-            </div>
-            <div class=" txt ">
-                <p>
-                    Lorem DCP ipsum Lorem DCP ipsumLorem DCP ipsumvLorem DCP ipsumLorem DCP ipsumLorem DCP ipsumLorem DCP ipsum Lorem DCP ipsumLorem DCP ipsumLorem DCP ipsumLorem DCP ipsumLorem DCP ipsumLorem DCP ipsumLorem DCP ipsumLorem DCP ipsum Lorem DCP ipsumLorem DCP
-                    ipsumLorem DCP ipsumLorem DCP ipsumLorem DCP ipsumLorem DCP ipsumLorem DCP ipsumLorem DCP ipsumLorem DCP ipsum Lorem DCP ipsumLorem DCP ipsumLorem DCP ipsumLorem DCP ipsumLorem DCP ipsumLorem DCP ipsumLorem DCP ipsumLorem DCP ipsumLorem
-                    DCP ipsum Lorem DCP ipsumLorem DCP ipsumLorem DCP ipsumLorem DCP ipsumLorem DCP ipsumLorem DCP ipsumLorem DCP ipsumLorem DCP ipsumLorem DCP ipsumLorem DCP ipsum Lorem DCP ipsumLorem DCP ipsumLorem DCP ipsumLorem DCP ipsumLorem DCP
-                    ipsumLorem DCP ipsumLorem DCP ipsum.
-                </p>
-            </div>
-        </div>
-    </section>
-
-    <div class="img3 ">
-        <div class="text ">
-            <span class="border trans ">
-                Third Image
-            </span>
-        </div>
-    </div>
-
-    <section class="section section-dark ">
-        <h2>Section Three</h2>
-        <div class="cols">
-            <div class="container">
-                <img src="media/img5.jpg" style="width: 300px; height: 400px ">
-            </div>
-            <div class=" txt ">
-                <p>
-                    Lorem DCP ipsum Lorem DCP ipsumLorem DCP ipsumvLorem DCP ipsumLorem DCP ipsumLorem DCP ipsumLorem DCP ipsum Lorem DCP ipsumLorem DCP ipsumLorem DCP ipsumLorem DCP ipsumLorem DCP ipsumLorem DCP ipsumLorem DCP ipsumLorem DCP ipsum Lorem DCP ipsumLorem DCP
-                    ipsumLorem DCP ipsumLorem DCP ipsumLorem DCP ipsumLorem DCP ipsumLorem DCP ipsumLorem DCP ipsumLorem DCP ipsum Lorem DCP ipsumLorem DCP ipsumLorem DCP ipsumLorem DCP ipsumLorem DCP ipsumLorem DCP ipsumLorem DCP ipsumLorem DCP ipsumLorem
-                    DCP ipsum Lorem DCP ipsumLorem DCP ipsumLorem DCP ipsumLorem DCP ipsumLorem DCP ipsumLorem DCP ipsumLorem DCP ipsumLorem DCP ipsumLorem DCP ipsumLorem DCP ipsum Lorem DCP ipsumLorem DCP ipsumLorem DCP ipsumLorem DCP ipsumLorem DCP
-                    ipsumLorem DCP ipsumLorem DCP ipsum.
-                </p>
-            </div>
-        </div>
-    </section>
 
 
 
+    <script>
+        window.addEventListener('mouseover', initLandbot, {
+            once: true
+        });
+        window.addEventListener('touchstart', initLandbot, {
+            once: true
+        });
+        var myLandbot;
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.min.js "></script>
+        function initLandbot() {
+            if (!myLandbot) {
+                var s = document.createElement('script');
+                s.type = 'text/javascript';
+                s.async = true;
+                s.addEventListener('load', function() {
+                    var myLandbot = new Landbot.Livechat({
+                        configUrl: 'https://storage.googleapis.com/landbot.online/v3/H-1446522-LTLI9MN0MTGZ3VRC/index.json',
+                    });
+                });
+                s.src = 'https://cdn.landbot.io/landbot-3/landbot-3.0.0.js';
+                var x = document.getElementsByTagName('script')[0];
+                x.parentNode.insertBefore(s, x);
+            }
+        }
+    </script>
+
 
 
 </body>
